@@ -1,0 +1,3 @@
+1. L'auto complétion du champ de recherche de joueur.
+2. Faire en sorte que les nouvelles ne s'affichent pas avant leur date de sortie.
+3.Modification des droits à partir de la page de gestion en administrateur.
