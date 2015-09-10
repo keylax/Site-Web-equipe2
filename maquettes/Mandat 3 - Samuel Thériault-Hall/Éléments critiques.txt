@@ -1,3 +1,7 @@
-Élément critique N1: Le classement ordonné des statistiques 
-Élément critique N2: 
-Élément critique N3: 
+Élément critique N1: Le classement ordonné des statistiques rafaîchis dynamique est importante et me semble
+un problème complexe.
+
+Élément critique N2: Le recaptcha set à la fois "critique" pour éviter du spam et complètement inconnu pour moi.
+
+Élément critique N3: L'affichage du joueur connecté dans le classement (ainsi que lien cliquable) est important à
+l'utilisateur (après tout, il consulte le clasement pour savoir sa position très probablement).
