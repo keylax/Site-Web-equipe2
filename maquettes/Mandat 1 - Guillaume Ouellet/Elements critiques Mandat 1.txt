@@ -1,0 +1,5 @@
+1. Bonne gestion de compte avec validation optimale côté client pour les formulaires.
+
+2. Bonne utilisation de la base de données.
+
+3. Système de gestion des réalisations facile à utiliser pour l'administrateur.
