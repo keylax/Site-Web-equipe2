@@ -1,4 +1,6 @@
-
+<?php
+include "dbconnector.php"
+?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -70,12 +72,13 @@
                                     <li><a href="#">My Profile</a></li>
                                 </ul>
                             </li>
-                            <li class=""><a href="#">Logout</a></li>
+                            <li class=""><a href="Login.php">Login</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
     </div>
-
+</br>
+</br>
     <div class="container">
