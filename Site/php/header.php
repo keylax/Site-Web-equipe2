@@ -16,7 +16,8 @@
     <li role="presentation"><a href="#">Messages</a></li>
 </ul>
 
-
+    <a href=""> <h4>Profile</h4></a>
+    <a href=""> <h4>Se connecter</h4></a>
 
 
 
