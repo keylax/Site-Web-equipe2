@@ -4,3 +4,5 @@
 *.iml
 .idea/workspace.xml
 .idea/vcs.xml
+Site/.idea/misc.xml
+Site/.idea/modules.xml
