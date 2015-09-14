@@ -11,14 +11,14 @@
 <body>
 <div class="container">
 <ul class="nav nav-pills">
-    <li role="presentation" class="active"><a href="index.php">Acceuil</a></li>
+    <li role="presentation" class="active"><a href="index.php">Accueil</a></li>
     <li role="presentation"><a href="#">Profile</a></li>
     <li role="presentation"><a href="#">Messages</a></li>
 	<li role="presentation"><a href="classement.php">Classement des joueurs</a></li>
 </ul>
 
     <a href=""> <h4>Profile</h4></a>
-    <a href=""> <h4>Se connecter</h4></a>
+    <a href="Login.php"> <h4>Se connecter</h4></a>
 
 
 
