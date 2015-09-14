@@ -17,7 +17,7 @@
 </ul>
 
     <a href=""> <h4>Profile</h4></a>
-    <a href=""> <h4>Se connecter</h4></a>
+    <a href="Login.php"> <h4>Se connecter</h4></a>
 
 
 
