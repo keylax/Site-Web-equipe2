@@ -3,8 +3,8 @@ include "header.php";
 ?>
 
 	<div class="page-header">
-		<h1>Acceuil</h1>
-
+		<h1>Accueil</h1>
+    </div>
 
 <?php
 include "footer.php";
