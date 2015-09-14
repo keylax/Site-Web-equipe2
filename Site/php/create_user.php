@@ -4,7 +4,7 @@ include "header.php";
 
     <div class="container-fluid">
         <div class="page-header">
-            <h1>Login</h1>
+            <h1>Creation d'utilisateur</h1>
         </div>
         <form name="connexion" id="connexion" action="login.php" onsubmit="return message(this)" method="post"  class="form-group">
             <div class="form-group">
