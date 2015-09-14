@@ -2,33 +2,42 @@
 include "header.php";
 ?>
 
-    <div class="container-fluid">
-        <div class="page-header">
-            <h1>Creation d'utilisateur</h1>
+<div class="page-header">
+    <h2>Création d'utilisateur</h2>
+</div>
+
+    <form role="form">
+        <div class="form-group">
+            <label for="userName">Nom d'utilisager:</label>
+            <input type="text" class="form-control" id="userName">
         </div>
-        <form name="connexion" id="connexion" action="login.php" onsubmit="return message(this)" method="post"  class="form-group">
-            <div class="form-group">
-                <label for="Nom">Nom : </label>
-                <td><input type="text" name="user" id="user" class="form-control" /></td>
-            </div>
-            <div class="form-group">
-                <label for="Mot de passe">Mot de passe : </label>
-                <td><input type="password" name="motdepasse" id="motdepasse" class="form-control" /></td>
-            </div>
-            <div class="form-group">
-                <label for="adresse courriel">Adresse courriel : </label>
-                <td><input type="text" name="adresse courriel" id="adresse courriel" class="form-control" /></td>
-            </div>
-            <div class="form-group">
-                <label for="numeroTel">Numéro de téléphone : </label>
-                <td><input type="text" name="numeroTel" id="numeroTel" class="form-control" /></td>
-            </div>
-            <input type="submit" name="envoyer" id="envoyer" value="Envoyer" class="btn-primary" /></td>
+        <div class="form-group">
+            <label for="pwd">Mot de passe:</label>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="form-group">
+            <label for="confirmPwd">Confirmation mot de passe:</label>
+            <input type="password" class="form-control" id="confirmPwd">
+        </div>
+        <div class="form-group">
+            <label for="email">Adresse email:</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="Groupe">Langue : </label>
+            <select class="form-control">
+                <option>FR</option>
+                <option>EN</option>
+            </select>
+        <div class="checkbox">
+            <label><input type="checkbox" class="checkbox"> Remember me</label>
+        </div>
+        <div class="btn-group-vertical">
+            <button type="submit" class="btn-primary">Enoyer</button>
+        </div>
 
-            <div id="resultat"></div>
-        </form>
-    </div>
 
+    </form>
 
 <?php
 include "footer.php";
