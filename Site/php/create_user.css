@@ -1,0 +1,44 @@
+.container{
+    margin-top:20px;
+}
+.image-preview-input {
+    position: relative !important;
+    overflow: hidden !important;
+    margin: 0px !important;
+    color: #333 !important;
+    background-color: #fff !important;
+    border-color: #ccc !important;
+}
+.image-preview-input input[type=file] {
+    position: absolute !important;
+    top: 0!important;
+    right: 0!important;
+    margin: 0!important;
+    padding: 0!important;
+    font-size: 20px!important;
+    cursor: pointer!important;
+    opacity: 0!important;
+    filter: alpha(opacity=0)!important;
+}
+.image-preview-input-title {
+    margin-left:2px!important;
+}
+
+#password {
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 0 0 10px;
+}
+
+div.pass-container {
+    height: 30px;
+}
+
+div.pass-bar {
+    height: 11px;
+    margin-top: 2px;
+}
+div.pass-hint {
+    font-family: arial;
+    font-size: 11px;
+}

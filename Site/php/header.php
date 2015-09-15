@@ -1,22 +1,24 @@
 <?php
 include "dbconnector.php"
 ?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    //<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
     <script src="../jquery-2.1.4.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+
 
 </head>
 
-<body>
+<body s>
 
     <div class="navbar-wrapper">
         <div class="container-fluid">
-            <nav class="navbar navbar-fixed-top">
+            <nav class="navbar navbar-static-top">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -68,7 +70,7 @@ include "dbconnector.php"
                                     ?>
                                     <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Change Password</a></li>
+                                    <li><a href="create_user.php"></a>kkkkk</li>
                                     <li><a href="#">My Profile</a></li>
                                 </ul>
                             </li>
@@ -79,6 +81,4 @@ include "dbconnector.php"
             </nav>
         </div>
     </div>
-</br>
-</br>
-    <div class="container">
+    <div class="container" style="z-index: -1;">
