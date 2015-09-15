@@ -1,5 +1,3 @@
-
-
 <?php
 
 define("BD_HOTE", "127.0.0.1");
@@ -21,3 +19,4 @@ function connexionBD(){
 	}
 }
 ?>
+
