@@ -23,12 +23,13 @@ function user_exists($email){
 	while($lignes=$requeteSelect->fetch(PDO::FETCH_OBJ))
 	{
 		if ($lignes->EMAIL == $email){
-				return true;
+			return true;
 		}
 	}
 	$requeteSelect->closeCursor();
 
 	unset($bd);
 }
+
 
 ?>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 include "header.php";
 ?>
 <?php
@@ -22,7 +22,6 @@ if(isset($_POST['submit'])) {
 					
 					if ($rememberMe == 'true'){
 						setcookie('user_email', $emailAdress, time()+3600);	
-						setcookie('user_password', $lignes->PASSWORD, time()+3600);
 					}
 					
 					$requeteSelect->closeCursor();

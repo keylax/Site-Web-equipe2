@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 ob_start();
 include "dbconnector.php";
@@ -77,7 +77,7 @@ include "generalFunctions.php";
 								else{
 									echo "<li class=\" dropdown\"><a href=\"#\" class=\"dropdown-toggle active\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"\" aria-expanded=\"false\">Visiteur<span class=\"caret\"></span></a>";
 										echo "<ul class=\"dropdown-menu\">";
-											echo "<li><a href=\"#\">Créer un usager</a></li>";
+											echo "<li><a href=\"create_user.php\">Créer un usager</a></li>";
 										echo "</ul>";
 									echo "</li>";
 									echo "<li class=\"\"><a href=\"Login.php\">Connexion</a></li>";

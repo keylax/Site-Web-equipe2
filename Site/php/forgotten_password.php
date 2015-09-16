@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 include "header.php";
 ?>
 
@@ -11,8 +11,8 @@ include "header.php";
                     <div class="panel-body">
                         <div class="text-center">
                           <h3><i class="fa fa-lock fa-4x"></i></h3>
-                          <h2 class="text-center">Forgot Password?</h2>
-                          <p>You can reset your password here.</p>
+                          <h2 class="text-center">Mot de passe oublié?</h2>
+                          <p>Changez votre mot de passe.</p>
                             <div class="panel-body">
                               
                               <form class="form">
@@ -21,15 +21,14 @@ include "header.php";
                                     <div class="input-group">
                                       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope color-blue"></i></span>
                                       
-                                      <input id="emailInput" placeholder="email address" class="form-control" type="email" oninvalid="setCustomValidity('Please enter a valid email address!')" onchange="try{setCustomValidity('')}catch(e){}" required="">
+                                      <input id="emailInput" placeholder="Adresse Courriel" class="form-control" type="email" oninvalid="setCustomValidity('Please enter a valid email address!')" onchange="try{setCustomValidity('')}catch(e){}" required="">
                                     </div>
                                   </div>
                                   <div class="form-group">
-                                    <input class="btn btn-lg btn-primary btn-block" value="Send My Password" type="submit">
+                                    <input class="btn btn-lg btn-primary btn-block" value="Envoyez moi mon mot de passe" type="submit">
                                   </div>
                                 </fieldset>
-                              </form>
-                              
+                              </form>            
                             </div>
                         </div>
                     </div>
